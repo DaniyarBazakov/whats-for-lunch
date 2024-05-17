@@ -14,7 +14,15 @@
  */
 
 const whatToDoForLunch = function(hungry, availableTime) {
-  console.log("I don't know what to do!");
+  let responseIfHungry = `I'm hungry and I have ${availableTime} minutes for lunch.`;
+  let responseNotHungry = `I'm not hungry and I have ${availableTime} minutes for lunch.`;
+  //nested conditions
+  if (hungry) {
+    console.log(responseIfHungry);
+  } else {
+    console.log(responseNotHungry)
+  }
+  
 }
 
 
