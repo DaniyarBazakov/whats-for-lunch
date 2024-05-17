@@ -20,10 +20,10 @@ const whatToDoForLunch = function(hungry, availableTime) {
   if (hungry) {
     console.log(responseIfHungry);
   } else {
-    console.log(responseNotHungry)
+    console.log(responseNotHungry);
   }
   
-}
+};
 
 
 /*
